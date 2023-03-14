@@ -9,6 +9,22 @@ Each folder has the respective exercises solved in the language of the nomenclat
 
 > The files are available on the internet for everyone to consult, however, it is up to the individual to use them or not, as Uncle Ben always says "with great power comes great responsibility".
 
+## Hanói Tower
+
+The `Python/hanoi_tower_bfs.py` file is an implementation of the tower of hanoi using the BFS strategy to solve the problem. There are two execution methods:
+
+ ```bash
+$ python hanoi_tower_bfs.py
+
+# python hanoi_tower_bfs.py NUM_DISKS, example:
+$ python hanoi_tower_bfs.py 5
+
+```
+
+The first command will run the program with an interaction menu and will show the number of explored nodes at the end. The second will automatically execute the BFS routine passing the number of desired disks as an argument and at the end it will show the execution time and the number of explored nodes.
+
+This file is part of a scientific work comparing AI techniques to solve the Hanoi Tower problem.
+
 ## 📝 License
 
 This project is under license [MIT](./LICENSE).
